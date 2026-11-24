@@ -1,4 +1,4 @@
-# sauna-guide
+# Sauna Guide
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sauna-guide is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sauna.guide/
+Sauna Guide is an editorial site that helps consumers make informed decisions about home sauna purchases. It provides independent reviews, cost guides, brand comparisons, and practical advice without selling any sauna products. The site emphasizes transparency, discloses paid relationships, and aims to empower buyers with accurate, unbiased information.
+
+**Areas:** Company · Sauna · Home · BuyingGuide · Reviews
+
+## Sauna Guide on APIs.io
+
+Everything profiled for Sauna Guide is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sauna-guide/](https://apis.io/providers/sauna-guide/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Sauna Guide MCP API](https://apis.io/apis/sauna-guide/sauna-guide-mcp-api/) — Model Context Protocol over Streamable HTTP.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Sauna Guide Agentic Access](https://apis.io/agentic-access/sauna-guide/sauna-guide-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [McpRequest](https://apis.io/schemas/sauna-guide/sauna-guide-mcp-request/)
+- [McpResponse](https://apis.io/schemas/sauna-guide/sauna-guide-mcp-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sauna Guide Context](https://apis.io/jsonld/sauna-guide/sauna-guide-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sauna Guide API Rules](https://apis.io/rules/sauna-guide/sauna-guide-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sauna Guide Domain Security](https://apis.io/security/sauna-guide/sauna-guide-domain-security/)
+- [Sauna Guide Vulnerability Disclosure](https://apis.io/security/sauna-guide/sauna-guide-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sauna.guide/)
+- [Documentation](https://sauna.guide/guides)
+- [Getting started](https://sauna.guide/accessories/penguin-chillers-setup)
+- [Security](https://sauna.guide/contact)
+- [Terms of service](https://sauna.guide/terms)
+- [Privacy policy](https://sauna.guide/privacy)
+
+## API Evangelist rating
+
+**Kin Score 44.3** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.7 |
+| Contract quality | 62.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 17.0 |
+
+**Agent readiness 41.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sauna-guide/](https://apis.io/providers/sauna-guide/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sauna Guide: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sauna-guide/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
